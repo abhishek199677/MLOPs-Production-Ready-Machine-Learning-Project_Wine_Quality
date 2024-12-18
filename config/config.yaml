@@ -1,11 +1,11 @@
-artifacts_root: artifacts
+artifacts_root: artifacts  #artifacts is a folder, when calling artifacts_root it returns artifacts value
 
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/abhishek199677/Final-End-to-end-ML-Project/raw/refs/heads/main/archive.zip
-  local_data_file: artifacts/data_ingestion/data.zip
-  unzip_dir: artifacts/data_ingestion
+  source_URL:   https://github.com/abhishek199677/MLOPs-Production-Ready-Machine-Learning-Project_Wine_Quality/raw/refs/heads/main/archive.zip   #link from my github repository
+  local_data_file: artifacts/data_ingestion/data.zip  #it will create artifacts foler inside of it creates data_ingestion folder and inside of it adds the zip file
+  unzip_dir: artifacts/data_ingestion   # this will unzip the zip file
 
 
 
